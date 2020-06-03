@@ -1,0 +1,43 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.13225035220574988 0.9840425715269502 0.11903806854986448 4.649663953033082
+  position -1.5679023015202718 0.48766702735782014 -0.14240681234622513
+}
+Background {
+  skyColor [
+    1 1 1
+    0 0 0
+  ]
+}
+RectangleArena {
+  translation 0 0 -0.09
+  floorTileSize 1 1
+  floorAppearance Appearance {
+    texture ImageTexture {
+      url [
+        "E:/Users/ZLEW/STUDIA/III rok/projekt inżynierski/projekt/robot/plansze/3.jpg"
+      ]
+    }
+  }
+  wallHeight 0.05
+}
+E-puck {
+  hidden position_0_0 198.114099034449
+  hidden position_0_1 205.02014266034027
+  hidden linearVelocity_0 -0.10654808095117947 4.089324668005152e-06 0.022895829311934558
+  hidden angularVelocity_0 2.9917417227604427e-05 0.5743965660865329 -0.0005921259232620948
+  hidden rotation_1 1 0 0 2.9478307952977696
+  hidden linearVelocity_1 -0.09182524991419154 -2.3094096051262794e-06 0.01973176717309873
+  hidden angularVelocity_1 0.9760856655603275 0.6058157259183403 4.517223626112632
+  hidden rotation_2 -1 0 0 3.958212830593502
+  hidden linearVelocity_2 -0.12140565150351315 -5.2697002109283086e-06 0.026071983097220655
+  hidden angularVelocity_2 1.3179655910038919 0.6182770030114235 6.139482786438364
+  translation 0.23107066008965904 -7.518668288971839e-05 -0.39216956795172003
+  rotation -0.0013941910608057436 0.9999984062693091 -0.0011152085577584025 1.7978137454399958
+  controller "kontroleeeeer"
+  camera_width 160
+  camera_height 120
+  camera_rotation 1 0 0 -1.2
+}
